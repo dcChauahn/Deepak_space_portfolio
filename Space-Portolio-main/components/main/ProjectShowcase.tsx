@@ -217,7 +217,7 @@ const ProjectShowcase = () => {
   const ProjectCard = ({ project, index }: { project: any, index: number }) => (
     <div
       key={index}
-      className="group relative overflow-hidden rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20 hover:border-cyan-500/40 transition-all duration-300 hover:scale-105 flex flex-col h-[500px]"
+      className="group relative overflow-hidden rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20 hover:border-cyan-500/40 transition-all duration-300 hover:scale-105 flex flex-col h-[450px] sm:h-[500px]"
     >
       {/* Project Image */}
       <div className="relative h-48 overflow-hidden">
@@ -236,14 +236,14 @@ const ProjectShowcase = () => {
       </div>
 
       {/* Project Content */}
-      <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-200">
+      <div className="p-4 sm:p-5 lg:p-6 flex flex-col flex-grow">
+        <h3 className="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-200">
           {project.name}
         </h3>
-        <p className="text-sm text-gray-400 mb-3 font-medium">
+        <p className="text-xs sm:text-sm text-gray-400 mb-3 font-medium">
           {project.tech}
         </p>
-        <p className="text-gray-300 text-sm mb-4 line-clamp-3 flex-grow">
+        <p className="text-gray-300 text-xs sm:text-sm mb-4 line-clamp-3 flex-grow">
           {project.description}
         </p>
         
@@ -257,7 +257,7 @@ const ProjectShowcase = () => {
               // Open in new tab
               window.open(project.url, "_blank", "noopener,noreferrer");
             }}
-            className="w-full bg-transparent border-2 border-cyan-500/30 hover:bg-cyan-500 hover:border-cyan-400 text-cyan-400 hover:text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 ease-in-out hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-opacity-50 cursor-pointer relative z-50 active:scale-95"
+            className="w-full bg-transparent border-2 border-cyan-500/30 hover:bg-cyan-500 hover:border-cyan-400 text-cyan-400 hover:text-white font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all duration-200 ease-in-out hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-opacity-50 cursor-pointer relative z-50 active:scale-95 text-sm sm:text-base"
             style={{ pointerEvents: "auto", zIndex: 999 }}
           >
             <span className="flex items-center justify-center">
@@ -274,15 +274,15 @@ const ProjectShowcase = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-10 sm:py-16 lg:py-20"
       id="project-showcase"
     >
 
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 sm:py-16 lg:py-20 text-center px-4">
         All Projects
       </h1>
 
-      <div className="w-full max-w-7xl px-10 space-y-20">
+      <div className="w-full max-w-7xl px-4 sm:px-6 md:px-8 lg:px-10 space-y-12 sm:space-y-16 lg:space-y-20">
         {/* E-Commerce Projects Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -290,10 +290,10 @@ const ProjectShowcase = () => {
           transition={{ duration: 0.5 }}
           className="space-y-8"
         >
-          <h2 className="text-3xl font-bold text-white text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white text-center px-4">
             E-Commerce Applications
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {ecommerceProjects.map((project, index) => (
               <ProjectCard key={index} project={project} index={index} />
             ))}
@@ -307,10 +307,10 @@ const ProjectShowcase = () => {
           transition={{ duration: 0.5 }}
           className="space-y-8"
         >
-          <h2 className="text-3xl font-bold text-white text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white text-center px-4">
             Shopify Websites
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {shopifyProjects.map((project, index) => (
               <ProjectCard key={index} project={project} index={index} />
             ))}
@@ -324,10 +324,10 @@ const ProjectShowcase = () => {
           transition={{ duration: 0.5 }}
           className="space-y-8"
         >
-          <h2 className="text-3xl font-bold text-white text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white text-center px-4">
             Shopify Apps
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {shopifyAppsProjects.map((project, index) => (
               <ProjectCard key={index} project={project} index={index} />
             ))}
@@ -341,10 +341,10 @@ const ProjectShowcase = () => {
           transition={{ duration: 0.5 }}
           className="space-y-8"
         >
-          <h2 className="text-3xl font-bold text-white text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white text-center px-4">
             WordPress Portfolio
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {wordpressProjects.map((project, index) => (
               <ProjectCard key={index} project={project} index={index} />
             ))}

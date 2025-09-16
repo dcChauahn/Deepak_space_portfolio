@@ -70,3 +70,30 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  .Welcome-box {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  
+  .Welcome-text {
+    font-size: 12px;
+  }
+}
+
+/* Line clamp utility for text truncation */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth transitions for mobile */
+@media (max-width: 768px) {
+  * {
+    transition: all 0.2s ease-in-out;
+  }
+}

@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 mt-20 sm:mt-32 lg:mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -30,7 +30,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-3 sm:gap-6 mt-4 sm:mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Hi, I&apos;m
@@ -44,7 +44,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-sm sm:text-base md:text-lg text-gray-400 my-3 sm:my-5 max-w-[600px] leading-relaxed"
         >
           I&apos;m a passionate Full Stack Developer specializing in Shopify & WordPress development. 
           With 5+ years of experience, I create scalable web applications and e-commerce solutions 
@@ -53,7 +53,7 @@ const HeroContent = () => {
         
         <motion.div
           variants={slideInFromLeft(1)}
-          className="flex flex-col sm:flex-row gap-6 mt-10"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-6 sm:mt-10"
         >
           <motion.button
             onClick={() => {
@@ -62,7 +62,7 @@ const HeroContent = () => {
             }}
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white font-bold py-5 px-10 rounded-xl transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 cursor-pointer border-none outline-none flex items-center justify-center text-xl min-w-[200px]"
+            className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white font-bold py-3 sm:py-4 md:py-5 px-6 sm:px-8 md:px-10 rounded-xl transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 cursor-pointer border-none outline-none flex items-center justify-center text-base sm:text-lg md:text-xl min-w-[180px] sm:min-w-[200px]"
             type="button"
           >
             <svg className="w-7 h-7 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ const HeroContent = () => {
             }}
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-transparent border-2 border-purple-500/50 hover:bg-purple-500 hover:border-purple-400 text-purple-400 hover:text-white font-bold py-5 px-10 rounded-xl transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 cursor-pointer flex items-center justify-center text-xl min-w-[200px]"
+            className="bg-transparent border-2 border-purple-500/50 hover:bg-purple-500 hover:border-purple-400 text-purple-400 hover:text-white font-bold py-3 sm:py-4 md:py-5 px-6 sm:px-8 md:px-10 rounded-xl transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 cursor-pointer flex items-center justify-center text-base sm:text-lg md:text-xl min-w-[180px] sm:min-w-[200px]"
             type="button"
           >
             <svg className="w-7 h-7 mr-3" fill="currentColor" viewBox="0 0 24 24">
@@ -91,13 +91,14 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center mt-8 lg:mt-0"
       >
         <Image
           src="/mainIconsdark.svg"
           alt="work icons"
-          height={650}
-          width={650}
+          height={400}
+          width={400}
+          className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[650px] lg:h-[650px] object-contain"
         />
       </motion.div>
     </motion.div>

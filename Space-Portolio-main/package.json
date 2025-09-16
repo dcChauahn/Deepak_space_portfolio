@@ -2,11 +2,14 @@
   "name": "spaceportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dcChauahn.github.io/Deepak_space_portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:export": "NODE_ENV=production next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",

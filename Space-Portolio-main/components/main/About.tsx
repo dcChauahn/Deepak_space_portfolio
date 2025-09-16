@@ -8,7 +8,7 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 const About = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-10 sm:py-16 lg:py-20"
       id="about"
     >
       <motion.div
@@ -23,28 +23,28 @@ const About = () => {
 
       <motion.h1
         variants={slideInFromTop}
-        className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
+        className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10 sm:py-16 lg:py-20 text-center"
       >
         Professional Profile
       </motion.h1>
 
-      <div className="w-full max-w-6xl px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="w-full max-w-6xl px-4 sm:px-6 md:px-8 lg:px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
           {/* Left Side - Profile Summary */}
           <motion.div
             variants={slideInFromLeft(0.5)}
             className="space-y-6"
           >
-            <div className="p-8 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
-              <h2 className="text-2xl font-bold text-white mb-4">
+            <div className="p-4 sm:p-6 lg:p-8 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
+              <h2 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                 Profile Summary
               </h2>
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
                 Full Stack Developer with <span className="text-cyan-400 font-semibold">5+ years of experience</span> in building and maintaining scalable web applications. 
                 Specialized in <span className="text-purple-400 font-semibold">Shopify Theme & App Development</span> and 
                 <span className="text-purple-400 font-semibold"> WordPress/WooCommerce websites</span>.
               </p>
-              <p className="text-gray-300 text-lg leading-relaxed mt-4">
+              <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed mt-3 sm:mt-4">
                 Expertise in React.js, Node.js, PHP, and modern databases. Proven track record of optimizing applications for performance, SEO, and conversions. 
                 Strong experience in cloud deployments, secure API integrations, and collaborating with cross-functional teams to deliver user-focused web solutions.
               </p>
@@ -53,9 +53,9 @@ const About = () => {
             {/* Contact Information */}
             <motion.div
               variants={slideInFromLeft(0.8)}
-              className="p-6 rounded-lg bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20"
+              className="p-4 sm:p-5 lg:p-6 rounded-lg bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20"
             >
-              <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Contact Information</h3>
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <span className="text-cyan-400 mr-3">📍</span>
@@ -88,8 +88,8 @@ const About = () => {
             variants={slideInFromRight(0.5)}
             className="space-y-6"
           >
-            <div className="p-6 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
-              <h3 className="text-xl font-bold text-white mb-4">Key Expertise</h3>
+            <div className="p-4 sm:p-5 lg:p-6 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Key Expertise</h3>
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-cyan-400 rounded-full mr-3"></div>
@@ -119,7 +119,7 @@ const About = () => {
             </div>
 
             <div className="p-6 rounded-lg bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20">
-              <h3 className="text-xl font-bold text-white mb-4">Education</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Education</h3>
               <div className="space-y-2">
                 <h4 className="text-lg font-semibold text-cyan-400">Bachelor&apos;s in Computer Applications</h4>
                 <p className="text-gray-300">Shri Guru Ram Rai University, Dehradun</p>
@@ -127,8 +127,8 @@ const About = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
-              <h3 className="text-xl font-bold text-white mb-4">Languages</h3>
+            <div className="p-4 sm:p-5 lg:p-6 rounded-lg bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20">
+              <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">Languages</h3>
               <div className="flex space-x-4">
                 <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">English</span>
                 <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Hindi</span>

@@ -88,7 +88,7 @@ export const Skill_data = [
     },
     {
       name: "LinkedIn",
-      src: "/facebook.svg",
+      src: "/linkedin.svg",
       link: "https://www.linkedin.com/in/deepak-chauhan-7066b51a1/"
     },
     {
