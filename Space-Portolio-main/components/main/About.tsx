@@ -121,7 +121,7 @@ const About = () => {
             <div className="p-6 rounded-lg bg-gradient-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/20">
               <h3 className="text-xl font-bold text-white mb-4">Education</h3>
               <div className="space-y-2">
-                <h4 className="text-lg font-semibold text-cyan-400">Bachelor's in Computer Applications</h4>
+                <h4 className="text-lg font-semibold text-cyan-400">Bachelor&apos;s in Computer Applications</h4>
                 <p className="text-gray-300">Shri Guru Ram Rai University, Dehradun</p>
                 <p className="text-gray-400 text-sm">2015 – 2019</p>
               </div>

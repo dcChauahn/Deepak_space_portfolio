@@ -33,7 +33,7 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Hi, I'm
+            Hi, I&apos;m
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               Deepak Chauhan{" "}
@@ -58,7 +58,7 @@ const HeroContent = () => {
           <motion.button
             onClick={() => {
               console.log("Get In Touch button clicked!");
-              window.open("mailto:deepakchauhan143143143@gmail.com?subject=Let's Work Together - Portfolio Inquiry&body=Hi Deepak,%0D%0A%0D%0AI came across your portfolio and I'm interested in working with you.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: %0D%0A- Timeline: %0D%0A- Budget: %0D%0A- Description: %0D%0A%0D%0APlease let me know your availability and rates.%0D%0A%0D%0AThanks!", "_blank");
+              window.open("mailto:deepakchauhan143143143@gmail.com?subject=Let&apos;s Work Together - Portfolio Inquiry&body=Hi Deepak,%0D%0A%0D%0AI came across your portfolio and I&apos;m interested in working with you.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: %0D%0A- Timeline: %0D%0A- Budget: %0D%0A- Description: %0D%0A%0D%0APlease let me know your availability and rates.%0D%0A%0D%0AThanks!", "_blank");
             }}
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}

@@ -20,7 +20,7 @@ const LetsWorkTogether = () => {
       </motion.div>
 
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Let's Work Together
+        Let&apos;s Work Together
       </h1>
 
       <div className="w-full max-w-4xl px-10">
@@ -39,9 +39,9 @@ const LetsWorkTogether = () => {
               Ready to Build Something Amazing?
             </h2>
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-              I'm passionate about creating exceptional digital experiences. Whether you need a 
+              I&apos;m passionate about creating exceptional digital experiences. Whether you need a 
               stunning website, a powerful e-commerce platform, or a custom web application, 
-              let's discuss how we can bring your vision to life.
+              let&apos;s discuss how we can bring your vision to life.
             </p>
             
             

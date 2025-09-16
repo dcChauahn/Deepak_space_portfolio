@@ -255,10 +255,10 @@ const ProjectShowcase = () => {
               e.stopPropagation();
               console.log("Opening project:", project.name, "URL:", project.url);
               // Open in new tab
-              window.open(project.url, '_blank', 'noopener,noreferrer');
+              window.open(project.url, "_blank", "noopener,noreferrer");
             }}
             className="w-full bg-transparent border-2 border-cyan-500/30 hover:bg-cyan-500 hover:border-cyan-400 text-cyan-400 hover:text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 ease-in-out hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-opacity-50 cursor-pointer relative z-50 active:scale-95"
-            style={{ pointerEvents: 'auto', zIndex: 999 }}
+            style={{ pointerEvents: "auto", zIndex: 999 }}
           >
             <span className="flex items-center justify-center">
               View Project
