@@ -97,7 +97,7 @@ const ProjectShowcase = () => {
       url: "https://apps.shopify.com/checkout-switcher",
       tech: "React, Node.js, Shopify APIs",
       description: "Shopify app for checkout customization and switching",
-      image: "/NextWebsite.png",
+      image: "/Projects photos/checkout-switcher.webp",
       category: "Shopify Apps"
     },
     {
@@ -105,7 +105,7 @@ const ProjectShowcase = () => {
       url: "https://apps.shopify.com/egiftify",
       tech: "React, Node.js, Shopify APIs",
       description: "E-gift card management app for Shopify stores",
-      image: "/profiol3.png",
+      image: "/Projects photos/egiftify.webp",
       category: "Shopify Apps"
     },
     {
@@ -113,7 +113,7 @@ const ProjectShowcase = () => {
       url: "https://apps.shopify.com/upsellpluscheckout",
       tech: "React, Node.js, Shopify APIs",
       description: "Upsell products during checkout process",
-      image: "/SpaceWebsite.png",
+      image: "/Projects photos/upsellpluscheckout.webp",
       category: "Shopify Apps"
     },
     {
@@ -121,7 +121,7 @@ const ProjectShowcase = () => {
       url: "https://apps.shopify.com/protect-package-protection",
       tech: "React, Node.js, Shopify APIs",
       description: "Package protection and insurance app",
-      image: "/NextWebsite.png",
+      image: "/Projects photos/protect-package-protection.webp",
       category: "Shopify Apps"
     },
     {
@@ -129,7 +129,7 @@ const ProjectShowcase = () => {
       url: "https://apps.shopify.com/crobots-dashboard-bot",
       tech: "React, Node.js, Shopify APIs",
       description: "Automated dashboard management bot",
-      image: "/profiol3.png",
+      image: "/Projects photos/crobots-dashboard-bot.webp",
       category: "Shopify Apps"
     },
     
@@ -139,7 +139,7 @@ const ProjectShowcase = () => {
       url: "https://www.vislearning.com/",
       tech: "WordPress, PHP, MySQL",
       description: "Educational platform with custom WordPress development",
-      image: "/SpaceWebsite.png",
+      image: "/Projects photos/vislearning.png",
       category: "WordPress"
     },
     {
@@ -147,7 +147,7 @@ const ProjectShowcase = () => {
       url: "https://astoratravels.com/",
       tech: "WordPress, WooCommerce, PHP",
       description: "Travel agency website with booking functionality",
-      image: "/NextWebsite.png",
+      image: "/Projects photos/astoratravels.jpg",
       category: "WordPress"
     },
     {
@@ -155,7 +155,7 @@ const ProjectShowcase = () => {
       url: "https://saddlebrown-magpie-652048.hostingersite.com/",
       tech: "WordPress, Elementor, PHP",
       description: "Creative agency website with Elementor page builder",
-      image: "/profiol3.png",
+      image: "/Projects photos/saddlebrown-magpie.webp",
       category: "WordPress"
     },
     {
@@ -163,7 +163,7 @@ const ProjectShowcase = () => {
       url: "https://revenel.com/",
       tech: "WordPress, Custom Theme, PHP",
       description: "Business website with custom WordPress theme",
-      image: "/SpaceWebsite.png",
+      image: "/Projects photos/revenel.webp",
       category: "WordPress"
     },
     {
@@ -171,7 +171,7 @@ const ProjectShowcase = () => {
       url: "https://driftportexport.com/",
       tech: "WordPress, WooCommerce, PHP",
       description: "Export business website with e-commerce functionality",
-      image: "/NextWebsite.png",
+      image: "/Projects photos/driftportexport.jpg",
       category: "WordPress"
     },
     {
@@ -179,7 +179,7 @@ const ProjectShowcase = () => {
       url: "https://fadigital.com.au/",
       tech: "WordPress, Custom Development, PHP",
       description: "Digital agency website with custom features",
-      image: "/profiol3.png",
+      image: "/Projects photos/fadigital.jpg",
       category: "WordPress"
     },
     {
@@ -187,15 +187,7 @@ const ProjectShowcase = () => {
       url: "https://rankmenow.ai/",
       tech: "WordPress, AI Integration, PHP",
       description: "AI-powered SEO and ranking platform",
-      image: "/SpaceWebsite.png",
-      category: "WordPress"
-    },
-    {
-      name: "Siox Logistic",
-      url: "https://sioxlogistic.com/",
-      tech: "WordPress, Logistics Theme, PHP",
-      description: "Logistics company website with tracking features",
-      image: "/NextWebsite.png",
+      image: "/Projects photos/rankmenow.webp",
       category: "WordPress"
     },
     {
@@ -203,7 +195,7 @@ const ProjectShowcase = () => {
       url: "https://sioxglobal.com/",
       tech: "WordPress, Global Business Theme, PHP",
       description: "Global business website with multi-language support",
-      image: "/profiol3.png",
+      image: "/Projects photos/sioxglobal.png",
       category: "WordPress"
     }
   ];
