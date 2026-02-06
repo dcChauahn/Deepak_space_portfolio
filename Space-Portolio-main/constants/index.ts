@@ -97,9 +97,13 @@ export const Skill_data = [
       link: "mailto:deepakchauhan143143143@gmail.com"
     },
   ];
-  
-  
-  
+
+  // Primary profile image used in the hero section.
+  // Currently pointing to /public/deepak.jpg
+  // To change, just replace this path with any image inside the /public folder.
+  export const PROFILE_IMAGE = "/deepak.jpg";
+
+
   export const Frontend_skill = [
     {
       skill_name: "HTML5",

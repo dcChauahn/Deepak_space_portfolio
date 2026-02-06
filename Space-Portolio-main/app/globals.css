@@ -71,6 +71,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Blackhole video brightness tweaks */
+.blackhole-video {
+  filter: brightness(0.8);
+}
+
+@media (max-width: 430px) {
+  .blackhole-video {
+    filter: brightness(0.45);
+  }
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 640px) {
   .Welcome-box {
